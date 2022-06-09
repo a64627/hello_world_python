@@ -1,12 +1,6 @@
-def hello():
-    return 'Hello World!'
-
-def print_hello():
-    print(hello())
+name = input("Enter your name: ")
     
-def name():
-    name = input("Enter your name: ")
-    print("Hello", name + "!")
+def hello(s):
+    return "Hello " + s + "!"
     
-print_hello()
-name()
+print(hello(name))
